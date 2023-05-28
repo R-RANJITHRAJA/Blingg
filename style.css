@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Roboto+Condensed:wght@300&family=Roboto:wght@100;400&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    height: 100vh;
+    width: 100vh;
+}
+
+h3 {
+
+    font-family: 'cinzel';
+    font-size: 45px;
+    font-weight: 400;
+}
+
+a {
+    font-family: Roboto, sans-serif;
+    text-decoration: none;
+    color: black;
+}
+
+.menu {
+    font-family: Roboto, sans-serif;
+    ;
+    font-size: 14px;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    margin-top: 20px;
+    margin-left: 60px;
+}
+
+.menu1 {
+    font-family: Roboto, sans-serif;
+    ;
+    font-size: 14px;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+    margin-top: 20px;
+    margin-left: 900px;
+}
+
+.logo {
+    position: absolute;
+    margin-left: 600px;
+}
+
+li {
+    list-style: none;
+}
+
+.box {
+    width: 100%;
+    height: 65px;
+}
+
+.box1 {
+    width: 100%;
+    height: 600px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    margin-top: 10px;
+}
+
+.banner {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+}
+
+.contant {
+    position: absolute;
+    top: 100px;
+    height: 300px;
+}
+
+p {
+    font-family: Roboto, sans-serif;
+}
+
+.box1 .contant h3 {
+    font-family: 'cinzel';
+    font-size: 55px;
+    font-weight: 400;
+    position: relative;
+    left: 70px;
+}
+
+.c0 {
+    position: absolute;
+    margin-left: 70px;
+}
+
+.c2 {
+    font-family: Roboto, sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 28px;
+    font-style: normal;
+    position: absolute;
+    width: 500px;
+    left: 70px;
+    top: 160px;
+}
+
+.button {
+    background-color: white;
+    border: 10px;
+    text-decoration: none;
+    color: transparent;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-width: 2px;
+    border-color: #000000;
+    border-style: solid;
+}
+
+.shopnow {
+    position: absolute;
+    left: 70px;
+    top: 250px;
+}
+
+.button:hover {
+    background-color: #fadc55;
+}
+
+.section2 {
+    position: absolute;
+    margin: 650px 0px 0px 0px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.trent p {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    font-family: Roboto, sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    position: absolute;
+    margin: 770px 0px 0px 70px;
+    width: 300px;
+    height: 450px;
+    background-color: rgb(255, 255, 255);
+    border-bottom: 50px;
+    border-radius: 20px;
+    border:2px solid black;
+}
+.card:hover{
+    transition: transform .2s ease-in-out;
+    transform: scale(1.2);
+}
+
+.details {
+    margin-left: 10px;
+
+}
+
+.image img {
+    width: 300px;
+    height: 300px;
+    object-fit: fill;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.card p {
+    padding-top: 5px;
+    font-size: 10px;
+    font-weight: normal;
+}
+
+.card.des p {
+    font-size: 15px;
+}
+
+.action {
+    padding-top: 20px;
+    font-family: Roboto, sans-serif;
+}
+
+.button2 {
+    width: 100px;
+    height: 35px;
+    border-radius: 5px;
+    background-color: #FDCEDF;
+    border: 1px solid black;
+
+}
+
+.button3 {
+    width: 100px;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+    background-color:#FDCEDF;
+    margin-left: 10px;
+    border: 1px solid black;
+}
+.card2{
+    font-family: Roboto, sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    position: absolute;
+    margin: 770px 0px 0px 500px;
+    width: 300px;
+    height: 450px;
+    background-color: rgb(255, 255, 255);
+    border-bottom: 50px;
+    border-radius: 20px;
+    border:2px solid black;
+}
+.card2 p {
+    padding-top: 5px;
+    font-size: 10px;
+    font-weight: normal;
+}
+.button4 {
+    width: 100px;
+    height: 35px;
+    border-radius: 5px;
+    background-color: #FDCEDF;
+    border: 1px solid black;
+
+}
+
+.button5 {
+    width: 100px;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+    background-color: #FDCEDF;
+    margin-left: 10px;
+    border: 1px solid black;
+}
+.card2.des p {
+    font-size: 15px;
+}
+.action1 {
+    padding-top: 20px;
+    font-family: Roboto, sans-serif;
+}
+.details2 {
+    margin-left: 10px;
+
+}
